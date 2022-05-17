@@ -15,9 +15,6 @@ public class ProtoTypeDemo {
 		newEmployee.showEmployee();
 		System.out.println();
 		employee.showEmployee();
-		
-
-
 	}
 
 }

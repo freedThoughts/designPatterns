@@ -9,8 +9,7 @@ public class FlyWeightImpl implements FlyWeight{
 	// extrinsic (variant) state can be passed in by client
 	String positionToWrite;
 	
-	
-	
+
 	public FlyWeightImpl(String anciiCode){
 		this.anciiCode = anciiCode;
 		this.positionToWrite = null;

@@ -5,5 +5,4 @@ public class Client_ProxyPattern {
 		Subject_CommandExecutor executor = new Proxy_Executor("Admin", "admin@123");
 		executor.executeCommand("rm filename.txt");
 	}
-
 }
